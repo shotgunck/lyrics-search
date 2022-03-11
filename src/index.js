@@ -56,7 +56,7 @@ class lyrics_search {
     async _scrape(url) {
         axios.get(url, { responseType: 'text' }).then(data => {
             let res = data.data
-            console.log('scrape', res)
+
             const $ = cheerio.load(res)
             return $('.lyrics').text().trim()
         })
