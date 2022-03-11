@@ -1,0 +1,28 @@
+{
+  "name": "@shotgunck/lyrics-search",
+  "version": "2.0.4",
+  "description": "A version of @penfoldium/lyrics-search that use import for node-fetch",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shotgunck/lyrics-search.git"
+  },
+  "keywords": [
+    "lyrics",
+    "genius",
+    "song-lyrics",
+    "genius-lyrics",
+    "lyrics-search",
+    "lyrics-lookup"
+  ],
+  "author": "shotgunck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shotgunck/lyrics-search/issues"
+  },
+  "homepage": "https://github.com/shotgunck/lyrics-search#readme",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "cheerio": "^1.0.0-rc.3"
+  }
+}
